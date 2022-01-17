@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.scss';
 // import Header from 'component/Header'
-// import Banner from 'component/Banner'
+import Banner from './component/Banner'
 // import LogoSlider from 'component/Logo-slider'
 // import Card from 'component/Card'
 // import FooterTop from 'component/FooterTop'
@@ -26,9 +26,9 @@ function App() {
     //   </header>
     // </div>
     <>
-      {/* <Header/>
+      {/* <Header/> */}
       <Banner/>
-      <LogoSlider/>
+      {/* <LogoSlider/>
       <Card/>
       <FooterTop/>
       <Footer/> */}
