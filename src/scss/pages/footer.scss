@@ -1,0 +1,47 @@
+
+/* =========================================
+ footer style 
+============================================*/
+
+footer {
+    text-align: center;
+    background-color: $secondery;
+
+}
+footer h4 {
+    color: $w-color;
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+footer .copyright {
+    color: $g-color;
+    margin-bottom: 16px;
+}
+footer .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: $space-0;
+    list-style: none;
+}
+
+.social-icon li {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.14);
+    transition: all 0.3s ease-in;
+}
+.social-icon li a,
+.social-icon li {
+    font-size: 16px;
+    line-height: 37px;
+    color: $w-color;
+    text-align: center;
+}
+
+
+.social-icon li:hover {
+  background-color: $primary;
+}

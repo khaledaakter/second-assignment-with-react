@@ -1,0 +1,42 @@
+@keyframes moveToTop {
+    from {
+      transform: translateY(20px); 
+    }
+    to {
+      transform: translateY(0); 
+    } 
+}
+@keyframes left {
+    from {
+      transform: translateX(0); 
+    }
+    to {
+      transform: translateX(10px); 
+    } 
+}
+
+
+
+.default-btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: $w-color;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 24px;
+    background-color: $primary;
+    border-radius: 40px;
+    border: none;
+    overflow: hidden;
+
+    &:hover {
+        background-color: derken($primary, 20%);
+        
+        i {
+            animation: left .6s linear infinite alternate;
+        }
+    }
+}

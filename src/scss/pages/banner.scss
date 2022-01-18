@@ -1,0 +1,49 @@
+/* =========================================
+ banner style 
+============================================*/
+
+.banner-left {
+    width: calc(100% - 460px);
+}
+.banner-left h1 {
+    margin-bottom: 16px;
+    max-width: 580px;
+    margin-left: 0;
+}
+.banner-left p {
+    font-family: var(--text-font2);
+    margin-bottom: 16px;
+    max-width: 550px;
+}
+.banner-right {
+    max-width: 440px;
+    padding-left: 20px;
+}
+
+.banner-right-inner {
+    background-image: url(../../images/circle.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 94%;
+}
+.banner-right-inner img {
+    animation: moveToTop 2s linear infinite alternate;
+}
+
+@media (max-width: 991px) {
+    .banner-inner {
+        display: block;
+    }  
+    .banner-left,
+    .banner-left h1,
+    .banner-left p{
+        width: auto;
+        text-align: center;
+        max-width: none;
+    }
+
+    .banner-right {
+        margin: 20px auto 0;
+    }
+}
+

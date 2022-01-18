@@ -1,0 +1,26 @@
+// font variable
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500;600;700&display=swap');
+$text-font: 'Poppins', sans-serif;
+$text-font2: 'Inter', sans-serif;
+
+// color variable
+
+$w-color: #fff;
+$g-color: #787885;
+$b-color: #000;
+$primary: #E02C6D;
+$secondery: #3A3A3A;
+
+// space variable
+
+$space-50: 50px;
+$space-0: 0px;
+
+
+
+// media query
+
+$max1024: "only screen (max-width: 1024px)";
+$max991: "only screen (max-width: 991px)";
+$max767: "only screen (max-width: 767px)";
