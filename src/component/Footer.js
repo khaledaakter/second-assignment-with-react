@@ -4,13 +4,13 @@ const Footer = () => {
     return(
         
       <>
-        <footer class="p-50">
-          <div class="footer-inner">
+        <footer className="p-50">
+          <div className="footer-inner">
               <h4>Influencer products</h4>
-              <p class="copyright">Copyright &#169; 2020  influencer products<br />
+              <p className="copyright">Copyright &#169; 2020  influencer products<br />
               All rights reserved</p>
 
-              <ul class="social-icon">
+              <ul className="social-icon">
                   <li><a href="#"><FaFacebookF /></a></li>
                   <li><a href="#"><FaTwitter /></a></li>
                   <li><a href="#"><FaInstagram /></a></li>
